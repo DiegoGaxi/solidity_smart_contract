@@ -26,8 +26,8 @@ async function main() {
   console.log('Saved deployment artifact to deployments/localhost/PropertyRegistry.json');
 
   // Optional automatic role granting
-  const notaryAddress = process.env.NOTARY_ADDRESS || process.env.DEFAULT_NOTARY || '0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c';
-  const governmentAddress = process.env.GOVERNMENT_ADDRESS || process.env.DEFAULT_GOVERNMENT || '0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db';
+  const notaryAddress = process.env.NOTARY_ADDRESS || process.env.DEFAULT_NOTARY || '0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC';
+  const governmentAddress = process.env.GOVERNMENT_ADDRESS || process.env.DEFAULT_GOVERNMENT || '0x90F79bf6EB2c4f870365E785982E1f101E93b906';
 
   // Grant NOTARY_ROLE and GOVERNMENT_ROLE if provided
   try {
